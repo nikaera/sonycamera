@@ -1,0 +1,4 @@
+github "nvzqz/Weak" "v1.0.0"
+github "pryomoax/SwiftAbstractLogger" "v0.1.0"
+github "robbiehanson/CocoaAsyncSocket" "7.5.1"
+github "tkmn0/SwiftSSDP" "7707e307218095946cbeaf8b609d98a30fe0f9ec"
