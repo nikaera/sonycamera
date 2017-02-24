@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2450AD161E5FD468000D8679 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD0F1E5FD468000D8679 /* DeviceInfo.m */; };
+		2450AD171E5FD468000D8679 /* DeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD111E5FD468000D8679 /* DeviceList.m */; };
+		2450AD181E5FD468000D8679 /* SampleDeviceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD131E5FD468000D8679 /* SampleDeviceDiscovery.m */; };
+		2450AD191E5FD468000D8679 /* UdpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD151E5FD468000D8679 /* UdpRequest.m */; };
+		2450AD261E5FD47C000D8679 /* SampleCameraRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD1B1E5FD47C000D8679 /* SampleCameraRemoteViewController.m */; };
+		2450AD271E5FD47C000D8679 /* SampleContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD1D1E5FD47C000D8679 /* SampleContentCell.m */; };
+		2450AD281E5FD47C000D8679 /* SampleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD1F1E5FD47C000D8679 /* SampleContentViewController.m */; };
+		2450AD291E5FD47C000D8679 /* SampleDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD211E5FD47C000D8679 /* SampleDateListViewController.m */; };
+		2450AD2A1E5FD47C000D8679 /* SampleGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD231E5FD47C000D8679 /* SampleGalleryViewController.m */; };
+		2450AD2B1E5FD47C000D8679 /* SampleStreamingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD251E5FD47C000D8679 /* SampleStreamingDataManager.m */; };
+		2450AD351E5FD48F000D8679 /* SampleAvContentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD2E1E5FD48F000D8679 /* SampleAvContentApi.m */; };
+		2450AD361E5FD48F000D8679 /* SampleCameraApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD311E5FD48F000D8679 /* SampleCameraApi.m */; };
+		2450AD371E5FD48F000D8679 /* SampleCameraEventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD341E5FD48F000D8679 /* SampleCameraEventObserver.m */; };
+		2450AD3D1E5FD4A3000D8679 /* HttpAsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD3A1E5FD4A3000D8679 /* HttpAsynchronousRequest.m */; };
+		2450AD3E1E5FD4A3000D8679 /* HttpSynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD3C1E5FD4A3000D8679 /* HttpSynchronousRequest.m */; };
 		7D84B7EB1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */; };
 		7D84B7EC1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D84B7ED1E57E4AB00CA9A41 /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7EA1E57E4AB00CA9A41 /* Weak.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -85,6 +100,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2450AD011E5FD434000D8679 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
+		2450AD0E1E5FD468000D8679 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		2450AD0F1E5FD468000D8679 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		2450AD101E5FD468000D8679 /* DeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceList.h; sourceTree = "<group>"; };
+		2450AD111E5FD468000D8679 /* DeviceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceList.m; sourceTree = "<group>"; };
+		2450AD121E5FD468000D8679 /* SampleDeviceDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDeviceDiscovery.h; sourceTree = "<group>"; };
+		2450AD131E5FD468000D8679 /* SampleDeviceDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDeviceDiscovery.m; sourceTree = "<group>"; };
+		2450AD141E5FD468000D8679 /* UdpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpRequest.h; sourceTree = "<group>"; };
+		2450AD151E5FD468000D8679 /* UdpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpRequest.m; sourceTree = "<group>"; };
+		2450AD1A1E5FD47C000D8679 /* SampleCameraRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraRemoteViewController.h; sourceTree = "<group>"; };
+		2450AD1B1E5FD47C000D8679 /* SampleCameraRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraRemoteViewController.m; sourceTree = "<group>"; };
+		2450AD1C1E5FD47C000D8679 /* SampleContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleContentCell.h; sourceTree = "<group>"; };
+		2450AD1D1E5FD47C000D8679 /* SampleContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleContentCell.m; sourceTree = "<group>"; };
+		2450AD1E1E5FD47C000D8679 /* SampleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleContentViewController.h; sourceTree = "<group>"; };
+		2450AD1F1E5FD47C000D8679 /* SampleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleContentViewController.m; sourceTree = "<group>"; };
+		2450AD201E5FD47C000D8679 /* SampleDateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDateListViewController.h; sourceTree = "<group>"; };
+		2450AD211E5FD47C000D8679 /* SampleDateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDateListViewController.m; sourceTree = "<group>"; };
+		2450AD221E5FD47C000D8679 /* SampleGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleGalleryViewController.h; sourceTree = "<group>"; };
+		2450AD231E5FD47C000D8679 /* SampleGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleGalleryViewController.m; sourceTree = "<group>"; };
+		2450AD241E5FD47C000D8679 /* SampleStreamingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataManager.h; sourceTree = "<group>"; };
+		2450AD251E5FD47C000D8679 /* SampleStreamingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStreamingDataManager.m; sourceTree = "<group>"; };
+		2450AD2D1E5FD48F000D8679 /* SampleAvContentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentApi.h; sourceTree = "<group>"; };
+		2450AD2E1E5FD48F000D8679 /* SampleAvContentApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAvContentApi.m; sourceTree = "<group>"; };
+		2450AD2F1E5FD48F000D8679 /* SampleAvContentDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentDefinitions.h; sourceTree = "<group>"; };
+		2450AD301E5FD48F000D8679 /* SampleCameraApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraApi.h; sourceTree = "<group>"; };
+		2450AD311E5FD48F000D8679 /* SampleCameraApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraApi.m; sourceTree = "<group>"; };
+		2450AD321E5FD48F000D8679 /* SampleCameraDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraDefinitions.h; sourceTree = "<group>"; };
+		2450AD331E5FD48F000D8679 /* SampleCameraEventObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraEventObserver.h; sourceTree = "<group>"; };
+		2450AD341E5FD48F000D8679 /* SampleCameraEventObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraEventObserver.m; sourceTree = "<group>"; };
+		2450AD391E5FD4A3000D8679 /* HttpAsynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsynchronousRequest.h; sourceTree = "<group>"; };
+		2450AD3A1E5FD4A3000D8679 /* HttpAsynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsynchronousRequest.m; sourceTree = "<group>"; };
+		2450AD3B1E5FD4A3000D8679 /* HttpSynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSynchronousRequest.h; sourceTree = "<group>"; };
+		2450AD3C1E5FD4A3000D8679 /* HttpSynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSynchronousRequest.m; sourceTree = "<group>"; };
+		2450AD3F1E5FDF6F000D8679 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2450AD401E5FE79C000D8679 /* SampleStreamingDataDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataDelegate.h; sourceTree = "<group>"; };
 		7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		7D84B7EA1E57E4AB00CA9A41 /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = ../Carthage/Build/iOS/Weak.framework; sourceTree = "<group>"; };
 		7DAFD9A01E57473700C9672A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +192,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2450ACFE1E5FD3E8000D8679 /* SonyRemoteCameraAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2450AD001E5FD420000D8679 /* SampleCameraRemote */,
+				2450ACFF1E5FD40B000D8679 /* DeviceDiscovery */,
+			);
+			name = SonyRemoteCameraAPI;
+			sourceTree = "<group>";
+		};
+		2450ACFF1E5FD40B000D8679 /* DeviceDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				2450AD0E1E5FD468000D8679 /* DeviceInfo.h */,
+				2450AD0F1E5FD468000D8679 /* DeviceInfo.m */,
+				2450AD101E5FD468000D8679 /* DeviceList.h */,
+				2450AD111E5FD468000D8679 /* DeviceList.m */,
+				2450AD121E5FD468000D8679 /* SampleDeviceDiscovery.h */,
+				2450AD131E5FD468000D8679 /* SampleDeviceDiscovery.m */,
+				2450AD141E5FD468000D8679 /* UdpRequest.h */,
+				2450AD151E5FD468000D8679 /* UdpRequest.m */,
+			);
+			name = DeviceDiscovery;
+			path = SonyCameraRemoteAPI/DeviceDiscovery;
+			sourceTree = "<group>";
+		};
+		2450AD001E5FD420000D8679 /* SampleCameraRemote */ = {
+			isa = PBXGroup;
+			children = (
+				2450AD2C1E5FD480000D8679 /* WebApi */,
+				2450AD1A1E5FD47C000D8679 /* SampleCameraRemoteViewController.h */,
+				2450AD1B1E5FD47C000D8679 /* SampleCameraRemoteViewController.m */,
+				2450AD1C1E5FD47C000D8679 /* SampleContentCell.h */,
+				2450AD1D1E5FD47C000D8679 /* SampleContentCell.m */,
+				2450AD1E1E5FD47C000D8679 /* SampleContentViewController.h */,
+				2450AD1F1E5FD47C000D8679 /* SampleContentViewController.m */,
+				2450AD201E5FD47C000D8679 /* SampleDateListViewController.h */,
+				2450AD211E5FD47C000D8679 /* SampleDateListViewController.m */,
+				2450AD221E5FD47C000D8679 /* SampleGalleryViewController.h */,
+				2450AD231E5FD47C000D8679 /* SampleGalleryViewController.m */,
+				2450AD241E5FD47C000D8679 /* SampleStreamingDataManager.h */,
+				2450AD251E5FD47C000D8679 /* SampleStreamingDataManager.m */,
+				2450AD401E5FE79C000D8679 /* SampleStreamingDataDelegate.h */,
+			);
+			name = SampleCameraRemote;
+			path = SonyCameraRemoteAPI/SampleCameraRemote;
+			sourceTree = "<group>";
+		};
+		2450AD2C1E5FD480000D8679 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+				2450AD381E5FD493000D8679 /* HttpRequest */,
+				2450AD2D1E5FD48F000D8679 /* SampleAvContentApi.h */,
+				2450AD2E1E5FD48F000D8679 /* SampleAvContentApi.m */,
+				2450AD2F1E5FD48F000D8679 /* SampleAvContentDefinitions.h */,
+				2450AD301E5FD48F000D8679 /* SampleCameraApi.h */,
+				2450AD311E5FD48F000D8679 /* SampleCameraApi.m */,
+				2450AD321E5FD48F000D8679 /* SampleCameraDefinitions.h */,
+				2450AD331E5FD48F000D8679 /* SampleCameraEventObserver.h */,
+				2450AD341E5FD48F000D8679 /* SampleCameraEventObserver.m */,
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		2450AD381E5FD493000D8679 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				2450AD391E5FD4A3000D8679 /* HttpAsynchronousRequest.h */,
+				2450AD3A1E5FD4A3000D8679 /* HttpAsynchronousRequest.m */,
+				2450AD3B1E5FD4A3000D8679 /* HttpSynchronousRequest.h */,
+				2450AD3C1E5FD4A3000D8679 /* HttpSynchronousRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
 		7DAFD9971E57473600C9672A = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +289,8 @@
 		7DAFD9A21E57473700C9672A /* test */ = {
 			isa = PBXGroup;
 			children = (
+				2450AD011E5FD434000D8679 /* test-Bridging-Header.h */,
+				2450ACFE1E5FD3E8000D8679 /* SonyRemoteCameraAPI */,
 				7DDB55291E5C19CA0004D149 /* BasicConsoleLogger.swift */,
 				7DDB552A1E5C19CA0004D149 /* Logger.swift */,
 				7DDB552B1E5C19CA0004D149 /* SwiftAbstractLogger.h */,
@@ -186,6 +312,7 @@
 				7DAFD9AF1E57473700C9672A /* Info.plist */,
 				7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */,
 				7D84B7EA1E57E4AB00CA9A41 /* Weak.framework */,
+				2450AD3F1E5FDF6F000D8679 /* PrefixHeader.pch */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -277,7 +404,8 @@
 				TargetAttributes = {
 					7DAFD99F1E57473600C9672A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9AD3B5KVMX;
+						DevelopmentTeam = QAHL4SN6S5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					7DAFD9B31E57473700C9672A = {
@@ -347,18 +475,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DDB551D1E5C19870004D149 /* SSDPMSearchResponse.swift in Sources */,
+				2450AD2A1E5FD47C000D8679 /* SampleGalleryViewController.m in Sources */,
 				7DAFD9A61E57473700C9672A /* ViewController.swift in Sources */,
 				7DCED1AA1E5BA9EF00199C3D /* ServiceDiscovery.swift in Sources */,
+				2450AD191E5FD468000D8679 /* UdpRequest.m in Sources */,
+				2450AD3E1E5FD4A3000D8679 /* HttpSynchronousRequest.m in Sources */,
+				2450AD171E5FD468000D8679 /* DeviceList.m in Sources */,
+				2450AD261E5FD47C000D8679 /* SampleCameraRemoteViewController.m in Sources */,
 				7DDB551A1E5C19870004D149 /* SSDPMSearchRequest.swift in Sources */,
+				2450AD2B1E5FD47C000D8679 /* SampleStreamingDataManager.m in Sources */,
 				7DDB55141E5C19870004D149 /* SSDPDiscovery.swift in Sources */,
 				7DDB55261E5C19870004D149 /* SSDPUPnP.swift in Sources */,
+				2450AD361E5FD48F000D8679 /* SampleCameraApi.m in Sources */,
 				7DDB55171E5C19870004D149 /* SSDPDiscoverySession.swift in Sources */,
+				2450AD3D1E5FD4A3000D8679 /* HttpAsynchronousRequest.m in Sources */,
 				7DDB55231E5C19870004D149 /* SSDPSearchTarget.swift in Sources */,
+				2450AD351E5FD48F000D8679 /* SampleAvContentApi.m in Sources */,
+				2450AD281E5FD47C000D8679 /* SampleContentViewController.m in Sources */,
+				2450AD291E5FD47C000D8679 /* SampleDateListViewController.m in Sources */,
 				7DDB552C1E5C19CA0004D149 /* BasicConsoleLogger.swift in Sources */,
+				2450AD181E5FD468000D8679 /* SampleDeviceDiscovery.m in Sources */,
 				7DDB552F1E5C19CA0004D149 /* Logger.swift in Sources */,
 				7DDB55201E5C19870004D149 /* SSDPResponse.swift in Sources */,
+				2450AD271E5FD47C000D8679 /* SampleContentCell.m in Sources */,
 				7DE6401C1E5D6E9C00FC91AB /* HTTPRequest.swift in Sources */,
+				2450AD161E5FD468000D8679 /* DeviceInfo.m in Sources */,
 				7DDB55111E5C19870004D149 /* SSDPCommon.swift in Sources */,
+				2450AD371E5FD48F000D8679 /* SampleCameraEventObserver.m in Sources */,
 				7DAFD9A41E57473700C9672A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,17 +674,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 9AD3B5KVMX;
+				DEVELOPMENT_TEAM = QAHL4SN6S5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumanoguchi.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -550,17 +697,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 9AD3B5KVMX;
+				DEVELOPMENT_TEAM = QAHL4SN6S5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumanoguchi.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

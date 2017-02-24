@@ -9,18 +9,29 @@
 import UIKit
 import SystemConfiguration
 
-class ViewController: UIViewController, SSDPDiscoveryDelegate{
-    
-    
+class ViewController: UIViewController, SSDPDiscoveryDelegate, SampleStreamingDataDelegate, HttpAsynchronousRequestParserDelegate, SampleEventObserverDelegate {
+
     @IBOutlet weak var ImageView: UIImageView!
+    var streamingDataManager: SampleStreamingDataManager!
+    var eventObserver: SampleCameraEventObserver!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        eventObserver = SampleCameraEventObserver.getInstance()
+        streamingDataManager = SampleStreamingDataManager()
     }
     
+    @available(iOS 2.0, *)
+    public func didFetch(_ image: UIImage!) {
+        ImageView.image = image
+    }
     
+    public func didStreamingStopped() {
+    }
     
+    public func parseMessage(_ response: Data!, apiName: String!) {
+    }
+
     @IBAction func tapBtn(_ sender: UIButton) {
         ServiceDiscovery().searchForServices()
         
@@ -42,13 +53,17 @@ class ViewController: UIViewController, SSDPDiscoveryDelegate{
     }
     
     @IBAction func tapShowImage(_ sender: UIButton) {
-        let responseDic: [String: Any] = ServiceDiscovery().resultUserDefoult.dictionary(forKey: "response")!
-        print(responseDic["result"] as! String)
-        let imageURL = URL(string: responseDic["result"] as! String)
-        let data = try? Data(contentsOf: imageURL!)
-        
-        ImageView.image = UIImage(data: data!)
-        ImageView.contentMode = .scaleToFill
+        if streamingDataManager.isStarted() {
+            eventObserver.stop()
+            self.streamingDataManager.stop()
+        } else {
+            eventObserver.start(with: self)
+            
+            let responseDic: [String: Any] = ServiceDiscovery().resultUserDefoult.dictionary(forKey: "response")!
+            print(responseDic["result"] as! String)
+            let liveviewUrl: String = responseDic["result"] as! String
+            self.streamingDataManager.start(liveviewUrl, viewDelegate: self)
+        }
     }
     
     @IBAction func tapGetBtn(_ sender: UIButton) {

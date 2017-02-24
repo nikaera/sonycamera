@@ -197,8 +197,7 @@ extension SSDPMSearchResponse {
         
         // EXT
         guard let _ = headers[SSDPHeaderKeys.ext] else {
-            //auter said delete
-//            return nil
+            return nil
         }
         self.ext = true
         mutableHeaders.removeValue(forKey: SSDPHeaderKeys.ext)
