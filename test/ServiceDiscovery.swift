@@ -301,6 +301,7 @@ extension ServiceDiscovery: SSDPDiscoveryDelegate, XMLParserDelegate{
 //        print(tmpdic)
 //        urlDefault.removeObject(forKey: "urldic")
         urlDefault.set(tmpdic, forKey: "urldic")
+        print(tmpdic)
 //        print(urlDefault)
 //        print(tmpdic["camera"] ?? "")
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243FFD631E62E88C009997A6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243FFD621E62E88C009997A6 /* Alamofire.framework */; };
+		243FFD641E62E88C009997A6 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 243FFD621E62E88C009997A6 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2450AD161E5FD468000D8679 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD0F1E5FD468000D8679 /* DeviceInfo.m */; };
 		2450AD171E5FD468000D8679 /* DeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD111E5FD468000D8679 /* DeviceList.m */; };
 		2450AD181E5FD468000D8679 /* SampleDeviceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD131E5FD468000D8679 /* SampleDeviceDiscovery.m */; };
@@ -22,6 +24,8 @@
 		2450AD371E5FD48F000D8679 /* SampleCameraEventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD341E5FD48F000D8679 /* SampleCameraEventObserver.m */; };
 		2450AD3D1E5FD4A3000D8679 /* HttpAsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD3A1E5FD4A3000D8679 /* HttpAsynchronousRequest.m */; };
 		2450AD3E1E5FD4A3000D8679 /* HttpSynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450AD3C1E5FD4A3000D8679 /* HttpSynchronousRequest.m */; };
+		2450AD451E602B14000D8679 /* Hostess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2450AD441E602B14000D8679 /* Hostess.framework */; };
+		2450AD461E602B14000D8679 /* Hostess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2450AD441E602B14000D8679 /* Hostess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D84B7EB1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */; };
 		7D84B7EC1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D84B7ED1E57E4AB00CA9A41 /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D84B7EA1E57E4AB00CA9A41 /* Weak.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -93,6 +97,8 @@
 			files = (
 				7D84B7EE1E57E4AB00CA9A41 /* Weak.framework in Embed Frameworks */,
 				7D84B7EC1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				2450AD461E602B14000D8679 /* Hostess.framework in Embed Frameworks */,
+				243FFD641E62E88C009997A6 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +106,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		243FFD621E62E88C009997A6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		2450AD011E5FD434000D8679 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
 		2450AD0E1E5FD468000D8679 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		2450AD0F1E5FD468000D8679 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
@@ -135,6 +142,7 @@
 		2450AD3C1E5FD4A3000D8679 /* HttpSynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSynchronousRequest.m; sourceTree = "<group>"; };
 		2450AD3F1E5FDF6F000D8679 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2450AD401E5FE79C000D8679 /* SampleStreamingDataDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataDelegate.h; sourceTree = "<group>"; };
+		2450AD441E602B14000D8679 /* Hostess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hostess.framework; path = test/Framework/Hostess.framework; sourceTree = "<group>"; };
 		7D84B7E91E57E4AB00CA9A41 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		7D84B7EA1E57E4AB00CA9A41 /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = ../Carthage/Build/iOS/Weak.framework; sourceTree = "<group>"; };
 		7DAFD9A01E57473700C9672A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +180,8 @@
 			files = (
 				7D84B7ED1E57E4AB00CA9A41 /* Weak.framework in Frameworks */,
 				7D84B7EB1E57E4AB00CA9A41 /* CocoaAsyncSocket.framework in Frameworks */,
+				2450AD451E602B14000D8679 /* Hostess.framework in Frameworks */,
+				243FFD631E62E88C009997A6 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +279,8 @@
 		7DAFD9971E57473600C9672A = {
 			isa = PBXGroup;
 			children = (
+				243FFD621E62E88C009997A6 /* Alamofire.framework */,
+				2450AD441E602B14000D8679 /* Hostess.framework */,
 				7DAFD9A21E57473700C9672A /* test */,
 				7DAFD9B71E57473700C9672A /* testTests */,
 				7DAFD9C21E57473700C9672A /* testUITests */,
@@ -680,6 +692,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/test/Framework",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;
@@ -703,6 +716,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/test/Framework",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = test/Info.plist;

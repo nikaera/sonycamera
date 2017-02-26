@@ -1,2 +1,3 @@
 # SwiftSSDP
 github "tkmn0/SwiftSSDP.git" "master"
+github "Alamofire/Alamofire" ~> 4.3

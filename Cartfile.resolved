@@ -1,3 +1,4 @@
+github "Alamofire/Alamofire" "4.3.0"
 github "robbiehanson/CocoaAsyncSocket" "7.6.0"
 github "pryomoax/SwiftAbstractLogger" "v0.1.0"
 github "nvzqz/Weak" "v1.0.0"
